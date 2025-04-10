@@ -2,7 +2,7 @@
 
 A LangChain compatible vector store implementation using IndexedDB for browser-based applications.
 
-[![npm version](https://badge.fury.io/js/indexed-db-vector-store.svg)](https://badge.fury.io/js/indexed-db-vector-store)
+[![npm version](https://badge.fury.io/js/indexed-db-vector-store.svg)](https://www.npmjs.com/package/indexed-db-vector-store)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Features
