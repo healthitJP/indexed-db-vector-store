@@ -11,7 +11,7 @@ A LangChain compatible vector store implementation using IndexedDB for browser-b
 - 💾 Browser-based storage using IndexedDB
 - 🔍 Support for metadata filtering
 - ⚡ Efficient similarity search
-- 📦 Zero dependencies (except for LangChain and Dexie)
+- 📦 Two dependencies (LangChain and Dexie)
 
 ## Installation
 
