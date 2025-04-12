@@ -23,8 +23,8 @@ export class IndexedDBLangChainVectorStoreWithHNSW<T extends Record<string, any>
     }
 
     private async initialize(args: IndexedDBVectorStoreArgsWithHNSW<T>) {
-        const hnsw = await HNSWWithDB.create(args.M, args.efConstruction, args.dbName);
-        const storage = new DexieStorageAdapterForHNSW<T>(args.dbName, args.tableName);
+        const hnsw = await HNSWWithDB.create(args.M, args.efConstruction, args.dbName+"_hnsw");
+        const storage = new DexieStorageAdapterForHNSW<T>(args.dbName, args.tableName+"_storage");
         this.core = new VectorStoreCoreWithHNSW<T>(storage, hnsw);
     }
 
