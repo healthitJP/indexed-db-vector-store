@@ -3,6 +3,13 @@
   "version": "1.0.2",
   "description": "A LangChain compatible vector store implementation using IndexedDB",
   "main": "dist/index.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    }
+  },
   "types": "dist/index.d.ts",
   "files": [
     "dist"
@@ -24,7 +31,6 @@
   ],
   "author": "Ushida Yosei",
   "license": "MIT",
-  "type": "commonjs",
   "devDependencies": {
     "@testing-library/jest-dom": "^6.6.3",
     "@types/jest": "^29.5.14",
