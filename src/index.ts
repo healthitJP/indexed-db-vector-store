@@ -6,5 +6,4 @@
  */
 
 export { IndexedDBLangChainVectorStore } from './langchain';
-
-
+export { IndexedDBLangChainVectorStoreWithHNSW } from './langchain/Indexeddb_lang_chain_vector_store_with_hnsw';
